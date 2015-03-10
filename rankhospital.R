@@ -41,7 +41,6 @@ rankhospital<- function (state,type,num="best"){
     else{
       RankedbestComplete[RankedbestComplete$rank==num,]  
     }
-    
   }
   
   #Get only the min value of the selected column
